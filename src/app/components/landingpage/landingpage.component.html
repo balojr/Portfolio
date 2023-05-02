@@ -1,28 +1,42 @@
 <div class="background">
   <div class="overlay"></div>
 </div>
-
 <div class="container">
-  <div class="links">
-    <a (click)="scrollTo('about')">Section 1</a>
-    <a (click)="scrollTo('section2')">Section 2</a>
-    <a (click)="scrollTo('section3')">Section 3</a>
+  <div class="topnav">
+    <div class="topleft">
+      <span>Martin Kagendo</span>
+    </div>
   </div>
-
-
-  <section id="section1">
-    <!-- your content for section 1 here -->
-  </section>
-
-  <section id="section2">
-    <!-- your content for section 2 here -->
-  </section>
-
-  <section id="section3">
-    <!-- your content for section 3 here -->
-  </section>
+  <div class="bottomnav">
+    <div class="links">
+      <a (click)="scrollTo('about')">About Me</a>
+      <a (click)="scrollTo('skills')">Skills</a>
+      <a (click)="scrollTo('projects')">Projects</a>
+      <a (click)="scrollTo('contact')">Contact</a>
+    </div>
+</div>
 </div>
 
+<div class="content">
+  <div class="welcome-text">
+    <span class="text" [ngStyle]="">Hi, I am Martin</span>
+    <span class="text1">a developer from Kenya</span>
+  </div>
+  <div class="thepage">
+    <section id="about">
+      <!-- your content for section 1 here -->
+    </section>
 
+    <section id="skills">
+      <!-- your content for section 2 here -->
+    </section>
 
+    <section id="projects">
+      <!-- your content for section 3 here -->
+    </section>
+    <section id="contact">
+      <!-- your content for section 4 here -->
+    </section>
+  </div>
+</div>
 

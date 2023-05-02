@@ -1,5 +1,6 @@
 .background {
-  background-image: url('/assets/images/background.jpg');
+  //background-image: url('/assets/images/background.jpg');
+  background: transparent;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,18 +31,47 @@
   }
 }
 .container{
-  .links{
-    color: white;
-    text-decoration: none;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: flex-end;
-    a{
-      margin: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  .topnav{
+    .topleft{
+      color: white;
       font-size: 20px;
-      &:hover{
-        color: #6f8cdc;
+      font-weight: 400;
+      font-family: sans-serif;
+    }
+  }
+  .bottomnav{
+    .links{
+      color: white;
+      text-decoration: none;
+      font-family: sans-serif;
+      a{
+        margin: 0 10px;
+        font-size: 17px;
+        font-weight: bold;
+        &:hover{
+          color: #8d95b7;
+        }
       }
+    }
+
+  }
+}
+.content{
+  .welcome-text{
+    display: flex;
+    flex-direction: column;
+    .text{
+      color: white;
+      font-size: 50px;
+      font-weight: bold;
+    }
+    .text1{
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
     }
   }
 }
