@@ -1,0 +1,62 @@
+#skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+
+    .angular{
+      svg{
+        width: 70px;
+        path{
+          fill: #b91818;
+        }
+      }
+    }
+    .java{
+      svg{
+        width: 60px;
+        path{
+          fill: #ffffff;
+        }
+      }
+    }
+    .html{
+      display: flex;
+      flex-direction: row;
+      .svg1{
+        margin-right: 15px;
+        width: 60px;
+      }
+      .svg2{
+        width: 55px;
+        path{
+          fill: #ffffff;
+        }
+      }
+      svg{
+        path{
+          fill: #b91818;
+        }
+      }
+    }
+    .technical{
+      svg{
+        width: 70px;
+        path{
+          fill: #ffffff;
+        }
+      }
+    }
+    .springboot{
+      svg{
+        width: 70px;
+        path{
+          fill: rgb(68, 171, 13);;
+        }
+      }
+    }
+}
+
+
