@@ -2,35 +2,26 @@
   <div class="overlay"></div>
 </div>
 <div class="container">
-  <div class="topnav">
-    <div class="topleft">
-      <span>Martin Kagendo</span>
-    </div>
-  </div>
-  <div class="bottomnav">
     <div class="links">
-      <a (click)="scrollTo('about')">About Me</a>
+      <a (click)="scrollTo('home')">This Page</a>
       <a (click)="scrollTo('skills')">Skills</a>
       <a (click)="scrollTo('projects')">Projects</a>
       <a (click)="scrollTo('contact')">Contact</a>
     </div>
 </div>
+
+<div class="middle">
+  <app-intro></app-intro>
 </div>
 
 <div class="content">
-  <div class="welcome-text">
-    <span class="text" [ngStyle]="">Hi, I am Martin</span>
-    <span class="text1">a developer from Kenya</span>
-  </div>
   <div class="thepage">
-    <section id="about">
-      <!-- your content for section 1 here -->
-    </section>
-
-    <section id="skills">
-      <!-- your content for section 2 here -->
-    </section>
-
+    <div class="text">
+      <span>Skills</span>
+    </div>
+    <div class="skills">
+      <app-skills></app-skills>
+    </div>
     <section id="projects">
       <!-- your content for section 3 here -->
     </section>

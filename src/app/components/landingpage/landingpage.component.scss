@@ -1,8 +1,5 @@
 .background {
-  //background-image: url('/assets/images/background.jpg');
-  background: transparent;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: transparent no-repeat center;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -32,46 +29,51 @@
 }
 .container{
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  .topnav{
-    .topleft{
-      color: white;
-      font-size: 20px;
-      font-weight: 400;
-      font-family: sans-serif;
-    }
-  }
-  .bottomnav{
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 5px 5px -5px rgb(32, 47, 86);
     .links{
-      color: white;
-      text-decoration: none;
-      font-family: sans-serif;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       a{
-        margin: 0 10px;
+        font-family: sans-serif;
+        color: white;
+        text-decoration: none;
         font-size: 17px;
         font-weight: bold;
+        margin: 0 10px;
         &:hover{
           color: #8d95b7;
         }
       }
     }
-
-  }
+}
+.middle{
+  margin-top: 170px;
+  width: 100%;
+  height: 100vh;
 }
 .content{
-  .welcome-text{
-    display: flex;
-    flex-direction: column;
+  .thepage{
     .text{
-      color: white;
-      font-size: 50px;
-      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      span{
+        font-size: 30px;
+        color: white;
+      }
     }
-    .text1{
-      color: white;
-      font-size: 30px;
-      font-weight: bold;
+    .skills{
+      height: 90vh;
+      scroll-snap-align: start;
     }
   }
 }
