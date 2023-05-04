@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./intro.component.scss']
 })
 export class IntroComponent {
-
+    sideImage = './assets/images/undraw_programming_re_kg9v.svg';
+    constructor() { }
 }

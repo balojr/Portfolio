@@ -1,0 +1,21 @@
+.intro{
+  display: flex;
+  flex-direction: row;
+  .welcome-text{
+    display: flex;
+    flex-direction: column;
+    .text{
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: lighter;
+      font-family: 'Sen', sans-serif;
+    }
+    .text1{
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: lighter;
+      font-family: 'Sen', sans-serif;
+    }
+  }
+}
+
