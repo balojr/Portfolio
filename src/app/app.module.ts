@@ -9,6 +9,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import {RouterModule, Routes} from "@angular/router";
 import { IntroComponent } from './components/intro/intro.component';
 import { NavComponent } from './components/nav/nav.component';
+import {NgOptimizedImage} from "@angular/common";
 
 const appRoutes: Routes = [
   {path: '', component: LandingpageComponent},
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule, // <-- include it under 'imports'
-    RouterModule.forRoot(appRoutes, {enableTracing: true})
+    RouterModule.forRoot(appRoutes, {enableTracing: true}),
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]
