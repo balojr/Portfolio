@@ -1,15 +1,24 @@
 #skills{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     gap: 50px;
     padding: 20px;
+    width: 80%;
     .angular{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 25% !important;
+      background: rgb(236, 238, 243);
+      padding: 10px;
+      border-radius: 10px;
+      //add box shadow
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       svg{
         width: 70px;
         path{
@@ -25,8 +34,9 @@
 
         .main{
           font-size: 20px;
-          color: #ffffff;
+          color: #0f1934;
           font-family: 'Sen', sans-serif;
+          padding-bottom: 5px;
         }
         .text{
           font-size: 15px;
@@ -36,14 +46,14 @@
       }
     }
   //hover to display skill description
-    .angular .text {
-      display: none;
-    }
-
-    .angular:hover .text {
-      display: block;
-      transition: ease-in-out 0.5s;
-    }
+  //  .angular .text {
+  //    display: none;
+  //  }
+  //
+  //  .angular:hover .text {
+  //    display: block;
+  //    transition: ease-in-out 0.5s;
+  //  }
 
 
     .java{
@@ -52,10 +62,16 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 25% !important;
+      background: rgb(236, 238, 243);
+      padding: 10px;
+      border-radius: 10px;
+      //add box shadow
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       svg{
         width: 60px;
         path{
-          fill: #ffffff;
+          fill: #090000;
         }
       }
       .javadesc{
@@ -67,8 +83,9 @@
 
         .main{
           font-size: 20px;
-          color: #ffffff;
+          color: #0f1934;
           font-family: 'Sen', sans-serif;
+          padding-bottom: 5px;
         }
         .text{
           font-size: 15px;
@@ -78,14 +95,14 @@
       }
     }
     //hover to display skill description
-    .java .text {
-      display: none;
-    }
-
-    .java:hover .text {
-      display: block;
-      transition: ease-in-out 0.5s;
-    }
+    //.java .text {
+    //  display: none;
+    //}
+    //
+    //.java:hover .text {
+    //  display: block;
+    //  transition: ease-in-out 0.5s;
+    //}
 
 
     .html{
@@ -93,6 +110,12 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 25% !important;
+      background: rgb(236, 238, 243);
+      padding: 10px;
+      border-radius: 10px;
+      //add box shadow
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       .svgs{
         display: flex;
         flex-direction: row;
@@ -103,7 +126,7 @@
         .svg2{
           width: 55px;
           path{
-            fill: #ffffff;
+            fill: #090000;
           }
         }
         svg{
@@ -121,8 +144,9 @@
 
         .main{
           font-size: 20px;
-          color: #ffffff;
+          color: #0f1934;
           font-family: 'Sen', sans-serif;
+          padding-bottom: 5px;
         }
         .text{
           font-size: 15px;
@@ -132,14 +156,14 @@
       }
     }
   //hover to display skill description
-    .html .text {
-      display: none;
-    }
-
-    .html:hover .text {
-      display: block;
-      transition: ease-in-out 0.5s;
-    }
+  //  .html .text {
+  //    display: none;
+  //  }
+  //
+  //  .html:hover .text {
+  //    display: block;
+  //    transition: ease-in-out 0.5s;
+  //  }
 
 
     .technical{
@@ -147,10 +171,16 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 25% !important;
+      background: rgb(236, 238, 243);
+      padding: 10px;
+      border-radius: 10px;
+      //add box shadow
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       svg{
         width: 70px;
         path{
-          fill: #ffffff;
+          fill: #090000;
         }
       }
       .technicaldesc{
@@ -162,8 +192,10 @@
 
         .main{
           font-size: 20px;
-          color: #ffffff;
+          color: #0f1934;
           font-family: 'Sen', sans-serif;
+          padding-bottom: 5px;
+
         }
         .text{
           font-size: 15px;
@@ -173,20 +205,26 @@
       }
     }
   //hover to display skill description
-    .technical .text {
-      display: none;
-    }
-
-    .technical:hover .text {
-      display: block;
-      transition: ease-in-out 0.5s;
-    }
+  //  .technical .text {
+  //    display: none;
+  //  }
+  //
+  //  .technical:hover .text {
+  //    display: block;
+  //    transition: ease-in-out 0.5s;
+  //  }
 
     .springboot{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 25% !important;
+      background: rgb(236, 238, 243);
+      padding: 10px;
+      border-radius: 10px;
+      //add box shadow
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       svg{
         width: 70px;
         path{
@@ -201,7 +239,8 @@
         margin-top: 10px;
         .main{
           font-size: 20px;
-          color: #ffffff;
+          color: #0f1934;
+          padding-bottom: 5px;
           font-family: 'Sen', sans-serif;
         }
         .text{
@@ -212,12 +251,14 @@
       }
     }
   //hover to display skill description
-    .springboot .text {
-      display: none;
-    }
-
-    .springboot:hover .text {
-      display: block;
-      transition: ease-in-out 0.5s;
-    }
+  //  .springboot .text {
+  //    display: none;
+  //  }
+  //
+  //  .springboot:hover .text {
+  //    display: block;
+  //    transition: ease-in-out 0.5s;
+  //  }
 }
+
+
