@@ -3,29 +3,30 @@
   align-items: center;
   width: 100%;
   .content{
-    padding-left: auto;
+    padding-left: 20px;
     display: flex;
     //flex-direction: row;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     .welcome-text{
       display: flex;
       flex-direction: column;
+      padding: 30px;
       //width: 50%;
       .text{
         color: #ffffff;
-        font-size: 40px;
+        font-size: 50px;
         font-weight: bold;
         font-family: 'Sen', sans-serif;
       }
       .text1{
         color: #ffffff;
-        font-size: 40px;
+        font-size: 50px;
         font-weight: bold;
         font-family: 'Sen', sans-serif;
       }
       .desc{
-        color: #0f1934;
+        color: #a8bef6;
         font-size: 20px;
         font-weight: medium;
         font-family: 'Sen', sans-serif;
