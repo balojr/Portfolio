@@ -10,6 +10,7 @@ import {RouterModule, Routes} from "@angular/router";
 import { IntroComponent } from './components/intro/intro.component';
 import { NavComponent } from './components/nav/nav.component';
 import {NgOptimizedImage} from "@angular/common";
+import { ProjectsComponent } from './components/projects/projects.component';
 
 const appRoutes: Routes = [
   {path: '', component: LandingpageComponent},
@@ -22,7 +23,8 @@ const appRoutes: Routes = [
     BackgroundComponent,
     SkillsComponent,
     IntroComponent,
-    NavComponent
+    NavComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
