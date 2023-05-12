@@ -5,8 +5,8 @@
     display: flex;
     justify-content: center;
     .skills{
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
       //flex-direction: row;
       width: 80%;
       .angular{
@@ -14,7 +14,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 25% !important;
+        //width: 30% !important;
         background: rgb(30, 27, 27);
         padding: 10px;
         border-radius: 10px;
@@ -64,8 +64,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 25% !important;
-        background: rgb(236, 238, 243);
+        //width: 25% !important;
+        background: rgb(30, 27, 27);
         padding: 10px;
         border-radius: 10px;
         margin: 20px;
@@ -86,13 +86,13 @@
 
           .main{
             font-size: 20px;
-            color: #0f1934;
+            color: #d4dcf6;
             font-family: 'Sen', sans-serif;
             padding-bottom: 5px;
           }
           .text{
             font-size: 15px;
-            color: #f8f3f3;
+            color: #D4DCF6FF;
             font-family: 'Sen', sans-serif;
           }
         }
@@ -113,8 +113,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 25% !important;
-        background: rgb(236, 238, 243);
+        //width: 25% !important;
+        background: rgb(30, 27, 27);
         padding: 10px;
         border-radius: 10px;
         margin: 20px;
@@ -130,7 +130,7 @@
           .svg2{
             width: 55px;
             path{
-              fill: #090000;
+              fill: #ffffff;
             }
           }
           svg{
@@ -148,13 +148,13 @@
 
           .main{
             font-size: 20px;
-            color: #0f1934;
+            color: #d4dcf6;
             font-family: 'Sen', sans-serif;
             padding-bottom: 5px;
           }
           .text{
             font-size: 15px;
-            color: #faf4f4;
+            color: #D4DCF6FF;
             font-family: 'Sen', sans-serif;
           }
         }
@@ -174,8 +174,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 25% !important;
-        background: rgb(236, 238, 243);
+        //width: 25% !important;
+        background: rgb(30, 27, 27);
         padding: 10px;
         border-radius: 10px;
         margin: 20px;
@@ -196,13 +196,13 @@
 
           .main{
             font-size: 20px;
-            color: #0f1934;
+            color: #d4dcf6;
             font-family: 'Sen', sans-serif;
             padding-bottom: 5px;
           }
           .text{
             font-size: 15px;
-            color: #090000;
+            color: #D4DCF6FF;
             font-family: 'Sen', sans-serif;
           }
         }
@@ -214,8 +214,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 25% !important;
-        background: rgb(236, 238, 243);
+        //width: 25% !important;
+        background: rgb(30, 27, 27);
         padding: 10px;
         border-radius: 10px;
         margin: 20px;
@@ -224,7 +224,7 @@
         svg{
           width: 70px;
           path{
-            fill: #090000;
+            fill: #ffffff;
           }
         }
         .technicaldesc{
@@ -236,14 +236,14 @@
 
           .main{
             font-size: 20px;
-            color: #0f1934;
+            color: #d4dcf6;
             font-family: 'Sen', sans-serif;
             padding-bottom: 5px;
 
           }
           .text{
             font-size: 15px;
-            color: #090000;
+            color: #D4DCF6FF;
             font-family: 'Sen', sans-serif;
           }
         }
@@ -263,8 +263,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 25% !important;
-        background: rgb(236, 238, 243);
+        //width: 25% !important;
+        background: rgb(30, 27, 27);
         padding: 10px;
         border-radius: 10px;
         margin: 20px;
@@ -284,13 +284,13 @@
           margin-top: 10px;
           .main{
             font-size: 20px;
-            color: #0f1934;
+            color: #d4dcf6;
             padding-bottom: 5px;
             font-family: 'Sen', sans-serif;
           }
           .text{
             font-size: 15px;
-            color: #090000;
+            color: #D4DCF6FF;
             font-family: 'Sen', sans-serif;
           }
         }
