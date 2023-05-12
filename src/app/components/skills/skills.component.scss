@@ -1,7 +1,6 @@
 
-
 #skills{
-    height: 60vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -16,7 +15,7 @@
         justify-content: center;
         align-items: center;
         width: 25% !important;
-        background: rgb(236, 238, 243);
+        background: rgb(30, 27, 27);
         padding: 10px;
         border-radius: 10px;
         margin: 20px;
@@ -37,13 +36,13 @@
 
           .main{
             font-size: 20px;
-            color: #0f1934;
+            color: #d4dcf6;
             font-family: 'Sen', sans-serif;
             padding-bottom: 5px;
           }
           .text{
             font-size: 15px;
-            color: #090000;
+            color: #D4DCF6FF;
             font-family: 'Sen', sans-serif;
           }
         }
@@ -75,7 +74,7 @@
         svg{
           width: 60px;
           path{
-            fill: #090000;
+            fill: #f3ecec;
           }
         }
         .javadesc{
@@ -93,7 +92,7 @@
           }
           .text{
             font-size: 15px;
-            color: #090000;
+            color: #f8f3f3;
             font-family: 'Sen', sans-serif;
           }
         }
@@ -155,7 +154,7 @@
           }
           .text{
             font-size: 15px;
-            color: #090000;
+            color: #faf4f4;
             font-family: 'Sen', sans-serif;
           }
         }
