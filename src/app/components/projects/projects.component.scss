@@ -1,0 +1,72 @@
+#projects{
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  .project{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    .dress{
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      //justify-content: center;
+      align-items: center;
+      padding: 10px;
+      width: 25%;
+      height: 300px;
+      margin: 20px;
+      .main{
+        font-size: 20px;
+        color: #000000;
+        font-family: 'Sen', sans-serif;
+        padding-bottom: 5px;
+      }
+      .text{
+        font-size: 15px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+      }
+    }
+    .voting{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      width: 25%;
+      .main{
+        font-size: 20px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+        padding-bottom: 5px;
+      }
+      .text{
+        font-size: 15px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+      }
+    }
+    .mambo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      width: 25%;
+      .main{
+        font-size: 20px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+        padding-bottom: 5px;
+      }
+      .text{
+        font-size: 15px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+      }
+    }
+  }
+}
