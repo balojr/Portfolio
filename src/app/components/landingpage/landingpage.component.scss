@@ -16,7 +16,7 @@
   width: 100%;
   height: 100%;
   opacity: 0.4;
-  background-color: #3b3434;
+  background-color: #1e1d1d;
   animation: fade 10s ease-in-out infinite alternate;
 }
 @keyframes fade {
@@ -58,7 +58,8 @@
 .middle{
   margin-top: 130px;
   width: 100%;
-  height: 90vh;
+  height: fit-content;
+  //height: 100%;
 }
 .content{
   .thepage{
@@ -66,7 +67,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 50px;
+      margin-top: 100px;
       span{
         font-size: 30px;
         color: white;
@@ -75,6 +76,20 @@
     .skills{
       //height: 85vh;
       //scroll-snap-align: start;
+    }
+    .projects{
+      //height: 85vh;
+      //scroll-snap-align: start;
+    }
+  }
+  .text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    span{
+      font-size: 30px;
+      color: white;
     }
   }
 }
