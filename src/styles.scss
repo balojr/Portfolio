@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+.hub{
+  margin: 0 auto;
+  position: relative;
+  bottom: -70px;
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 130px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 5px;
+    span{
+      //flex-direction: row;
+      font-size: 15px;
+      font-weight: medium;
+      color: #090000;
+    }
+    svg{
+      width: 20px;
+      path{
+        fill: #090000;
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+#projects{
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  .project{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    .dress{
+      background: rgb(30, 27, 27);
+      border-radius: 9px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      position: relative;
+      //width: 25%;
+      height: 300px;
+      margin: 20px;
+      .main{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #d4dcf6;
+        font-family: 'Sen', sans-serif;
+        padding-bottom: 5px;
+      }
+      .text{
+        margin-top: 30px;
+        font-size: 15px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+      }
+
+    }
+    .voting{
+      background: rgb(30, 27, 27);
+      border-radius: 9px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      //width: 25%;
+      height: 300px;
+      margin: 20px;
+      .main{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+        padding-bottom: 5px;
+      }
+      .text{
+        margin-top: 30px;
+        font-size: 15px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+      }
+
+    }
+    .mambo{
+      background: rgb(30, 27, 27);
+      border-radius: 9px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      //width: 25%;
+      height: 300px;
+      margin: 20px;
+      .main{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+        padding-bottom: 5px;
+      }
+      .text{
+        margin-top: 30px;
+        font-size: 15px;
+        color: #c5cde5;
+        font-family: 'Sen', sans-serif;
+      }
+
+    }
+  }
+}
