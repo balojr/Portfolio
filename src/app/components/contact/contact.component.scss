@@ -1,0 +1,22 @@
+#contact{
+  .all{
+    .left{
+      span{
+        font-size: 30px;
+        color: white;
+        font-family: 'Sen', sans-serif;
+      }
+      .socials{
+        a{
+          svg{
+            color: white;
+            width: 40px;
+            fill{
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
