@@ -12,6 +12,8 @@ import { NavComponent } from './components/nav/nav.component';
 import {NgOptimizedImage} from "@angular/common";
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { MatIconModule } from '@angular/material/icon';
+import {MatButtonToggleModule} from "@angular/material/button-toggle";
 
 const appRoutes: Routes = [
   {path: '', component: LandingpageComponent},
@@ -33,7 +35,9 @@ const appRoutes: Routes = [
     AppRoutingModule,
     BrowserAnimationsModule, // <-- include it under 'imports'
     RouterModule.forRoot(appRoutes, {enableTracing: true}),
-    NgOptimizedImage
+    NgOptimizedImage,
+    MatIconModule,
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
