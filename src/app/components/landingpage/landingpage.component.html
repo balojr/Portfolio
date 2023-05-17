@@ -3,7 +3,7 @@
 </div>
 <div class="container">
     <div class="links">
-      <a (click)="scrollTo('home')">This Page</a>
+      <a (click)="scrollTo('#')">This Page</a>
       <a (click)="scrollTo('skills')">Skills</a>
       <a (click)="scrollTo('projects')">Projects</a>
       <a (click)="scrollTo('contact')">Contact</a>
@@ -19,7 +19,7 @@
     <div class="text">
       <span>Skills</span>
     </div>
-    <div class="skills">
+    <div id="skills">
       <app-skills></app-skills>
     </div>
     <div class="text1">
@@ -27,6 +27,9 @@
     </div>
     <div id="projects">
       <app-projects></app-projects>
+    </div>
+    <div class="contact">
+      <app-contact></app-contact>
     </div>
   </div>
 </div>

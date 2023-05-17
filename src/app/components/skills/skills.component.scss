@@ -1,9 +1,9 @@
-
 #skills{
     height: 75vh;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 5px;
     .skills{
       display: grid;
       grid-template-columns: repeat(3, 1fr);

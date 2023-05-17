@@ -2,12 +2,15 @@
   height: 75vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-top: 40px;
+  //margin: 0 auto;
   .project{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 80%;
+    margin: 0 auto;
     .dress{
       background: rgb(30, 27, 27);
       border-radius: 9px;
@@ -85,4 +88,26 @@
 
     }
   }
+  .outro{
+    width: 80%;
+    margin: 0 auto;
+    //align-items: center;
+    //justify-content: center;
+    //display: flex;
+    span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      color: #c5cde5;
+      font-family: 'Sen', sans-serif;
+      a{
+        color: #8aa3e7;
+        text-decoration: none;
+        font-family: 'Sen', sans-serif;
+      }
+    }
+  }
 }
+
