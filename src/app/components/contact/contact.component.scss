@@ -1,19 +1,38 @@
 #contact{
+  width: 100%;
+  background: #090000;
   .all{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     .left{
       span{
         font-size: 30px;
         color: white;
         font-family: 'Sen', sans-serif;
       }
+      .txt{
+        font-size: 15px;
+        color: #ffffff;
+        font-family: 'Sen', sans-serif;
+        padding: 15px;
+      }
       .socials{
-        a{
-          svg{
-            color: white;
-            width: 40px;
-            fill{
-              color: #ffffff;
-            }
+        display: flex;
+        flex-direction: column;
+        .text{
+          padding: 15px;
+          i{
+            font-size: 20px;
+            margin-right: 20px;
+          }
+          span{
+            font-size: 15px;
+            color: #c5cde5;
+            font-family: 'Sen', sans-serif;
           }
         }
       }
