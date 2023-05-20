@@ -5,306 +5,335 @@
     justify-content: center;
     margin-top: 5px;
     .skills{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      //flex-direction: row;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
       width: 80%;
-      .angular{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        //width: 30% !important;
-        background: rgb(30, 27, 27);
-        padding: 10px;
-        border-radius: 10px;
+      .example-card {
+        max-width: 400px;
+        background: rgb(220, 212, 212);
+        //height: fit-content;
         margin: 20px;
-        //add box shadow
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        svg{
-          width: 70px;
-          path{
-            fill: #b91818;
+        mat-card-header{
+          .title{
+            margin-top: 15px;
           }
-        }
-        .angulardesc{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin-top: 10px;
-
-          .main{
-            font-size: 20px;
-            color: #d4dcf6;
-            font-family: 'Sen', sans-serif;
-            padding-bottom: 5px;
-          }
-          .text{
-            font-size: 15px;
-            color: #D4DCF6FF;
-            font-family: 'Sen', sans-serif;
-          }
-        }
-      }
-      //hover to display skill description
-      //  .angular .text {
-      //    display: none;
-      //  }
-      //
-      //  .angular:hover .text {
-      //    display: block;
-      //    transition: ease-in-out 0.5s;
-      //  }
-
-
-      .java{
-        //background: #090000;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        //width: 25% !important;
-        background: rgb(30, 27, 27);
-        padding: 10px;
-        border-radius: 10px;
-        margin: 20px;
-        //add box shadow
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        svg{
-          width: 60px;
-          path{
-            fill: #f3ecec;
-          }
-        }
-        .javadesc{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin-top: 10px;
-
-          .main{
-            font-size: 20px;
-            color: #d4dcf6;
-            font-family: 'Sen', sans-serif;
-            padding-bottom: 5px;
-          }
-          .text{
-            font-size: 15px;
-            color: #D4DCF6FF;
-            font-family: 'Sen', sans-serif;
-          }
-        }
-      }
-      //hover to display skill description
-      //.java .text {
-      //  display: none;
-      //}
-      //
-      //.java:hover .text {
-      //  display: block;
-      //  transition: ease-in-out 0.5s;
-      //}
-
-
-      .html{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        //width: 25% !important;
-        background: rgb(30, 27, 27);
-        padding: 10px;
-        border-radius: 10px;
-        margin: 20px;
-        //add box shadow
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        .svgs{
-          display: flex;
-          flex-direction: row;
-          .svg1{
-            margin-right: 15px;
-            width: 60px;
-          }
-          .svg2{
-            width: 55px;
-            path{
-              fill: #ffffff;
-            }
-          }
-          svg{
-            path{
-              fill: #b91818;
+          .example-header-image {
+            background-size: cover;
+            mat-icon{
+              padding: 5px;
+              height: fit-content;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              i{
+                font-size: 50px;
+              }
             }
           }
         }
-        .htmldesc{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin-top: 10px;
-
-          .main{
-            font-size: 20px;
-            color: #d4dcf6;
-            font-family: 'Sen', sans-serif;
-            padding-bottom: 5px;
-          }
-          .text{
-            font-size: 15px;
-            color: #D4DCF6FF;
-            font-family: 'Sen', sans-serif;
-          }
-        }
       }
-      //hover to display skill description
-      //  .html .text {
-      //    display: none;
-      //  }
-      //
-      //  .html:hover .text {
-      //    display: block;
-      //    transition: ease-in-out 0.5s;
-      //  }
-
-      .ide{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        //width: 25% !important;
-        background: rgb(30, 27, 27);
-        padding: 10px;
-        border-radius: 10px;
-        margin: 20px;
-        //add box shadow
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        svg{
-          width: 70px;
-          path{
-            fill: #b91818;
-          }
-        }
-        .idedesc{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin-top: 10px;
-
-          .main{
-            font-size: 20px;
-            color: #d4dcf6;
-            font-family: 'Sen', sans-serif;
-            padding-bottom: 5px;
-          }
-          .text{
-            font-size: 15px;
-            color: #D4DCF6FF;
-            font-family: 'Sen', sans-serif;
-          }
-        }
-      }
-
-
-      .technical{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        //width: 25% !important;
-        background: rgb(30, 27, 27);
-        padding: 10px;
-        border-radius: 10px;
-        margin: 20px;
-        //add box shadow
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        svg{
-          width: 70px;
-          path{
-            fill: #ffffff;
-          }
-        }
-        .technicaldesc{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin-top: 10px;
-
-          .main{
-            font-size: 20px;
-            color: #d4dcf6;
-            font-family: 'Sen', sans-serif;
-            padding-bottom: 5px;
-
-          }
-          .text{
-            font-size: 15px;
-            color: #D4DCF6FF;
-            font-family: 'Sen', sans-serif;
-          }
-        }
-      }
-      //hover to display skill description
-      //  .technical .text {
-      //    display: none;
-      //  }
-      //
-      //  .technical:hover .text {
-      //    display: block;
-      //    transition: ease-in-out 0.5s;
-      //  }
-
-      .springboot{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        //width: 25% !important;
-        background: rgb(30, 27, 27);
-        padding: 10px;
-        border-radius: 10px;
-        margin: 20px;
-        //add box shadow
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        svg{
-          width: 70px;
-          path{
-            fill: rgb(68, 171, 13);;
-          }
-        }
-        .springbootdesc{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin-top: 10px;
-          .main{
-            font-size: 20px;
-            color: #d4dcf6;
-            padding-bottom: 5px;
-            font-family: 'Sen', sans-serif;
-          }
-          .text{
-            font-size: 15px;
-            color: #D4DCF6FF;
-            font-family: 'Sen', sans-serif;
-          }
-        }
-      }
-      //hover to display skill description
-      //  .springboot .text {
-      //    display: none;
-      //  }
-      //
-      //  .springboot:hover .text {
-      //    display: block;
-      //    transition: ease-in-out 0.5s;
-      //  }
     }
 }
+
+//.angular{
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  //width: 30% !important;
+//  background: rgb(30, 27, 27);
+//  padding: 10px;
+//  border-radius: 10px;
+//  margin: 20px;
+//  //add box shadow
+//  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+//  svg{
+//    width: 70px;
+//    path{
+//      fill: #b91818;
+//    }
+//  }
+//  .angulardesc{
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: center;
+//    align-items: center;
+//    margin-top: 10px;
+//
+//    .main{
+//      font-size: 20px;
+//      color: #d4dcf6;
+//      font-family: 'Sen', sans-serif;
+//      padding-bottom: 5px;
+//    }
+//    .text{
+//      font-size: 15px;
+//      color: #D4DCF6FF;
+//      font-family: 'Sen', sans-serif;
+//    }
+//  }
+//}
+////hover to display skill description
+////  .angular .text {
+////    display: none;
+////  }
+////
+////  .angular:hover .text {
+////    display: block;
+////    transition: ease-in-out 0.5s;
+////  }
+//
+//
+//.java{
+//  //background: #090000;
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  //width: 25% !important;
+//  background: rgb(30, 27, 27);
+//  padding: 10px;
+//  border-radius: 10px;
+//  margin: 20px;
+//  //add box shadow
+//  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+//  svg{
+//    width: 60px;
+//    path{
+//      fill: #f3ecec;
+//    }
+//  }
+//  .javadesc{
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: center;
+//    align-items: center;
+//    margin-top: 10px;
+//
+//    .main{
+//      font-size: 20px;
+//      color: #d4dcf6;
+//      font-family: 'Sen', sans-serif;
+//      padding-bottom: 5px;
+//    }
+//    .text{
+//      font-size: 15px;
+//      color: #D4DCF6FF;
+//      font-family: 'Sen', sans-serif;
+//    }
+//  }
+//}
+////hover to display skill description
+////.java .text {
+////  display: none;
+////}
+////
+////.java:hover .text {
+////  display: block;
+////  transition: ease-in-out 0.5s;
+////}
+//
+//
+//.html{
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  //width: 25% !important;
+//  background: rgb(30, 27, 27);
+//  padding: 10px;
+//  border-radius: 10px;
+//  margin: 20px;
+//  //add box shadow
+//  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+//  .svgs{
+//    display: flex;
+//    flex-direction: row;
+//    .svg1{
+//      margin-right: 15px;
+//      width: 60px;
+//    }
+//    .svg2{
+//      width: 55px;
+//      path{
+//        fill: #ffffff;
+//      }
+//    }
+//    svg{
+//      path{
+//        fill: #b91818;
+//      }
+//    }
+//  }
+//  .htmldesc{
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: center;
+//    align-items: center;
+//    margin-top: 10px;
+//
+//    .main{
+//      font-size: 20px;
+//      color: #d4dcf6;
+//      font-family: 'Sen', sans-serif;
+//      padding-bottom: 5px;
+//    }
+//    .text{
+//      font-size: 15px;
+//      color: #D4DCF6FF;
+//      font-family: 'Sen', sans-serif;
+//    }
+//  }
+//}
+////hover to display skill description
+////  .html .text {
+////    display: none;
+////  }
+////
+////  .html:hover .text {
+////    display: block;
+////    transition: ease-in-out 0.5s;
+////  }
+//
+//.ide{
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  //width: 25% !important;
+//  background: rgb(30, 27, 27);
+//  padding: 10px;
+//  border-radius: 10px;
+//  margin: 20px;
+//  //add box shadow
+//  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+//  svg{
+//    width: 70px;
+//    path{
+//      fill: #b91818;
+//    }
+//  }
+//  .idedesc{
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: center;
+//    align-items: center;
+//    margin-top: 10px;
+//
+//    .main{
+//      font-size: 20px;
+//      color: #d4dcf6;
+//      font-family: 'Sen', sans-serif;
+//      padding-bottom: 5px;
+//    }
+//    .text{
+//      font-size: 15px;
+//      color: #D4DCF6FF;
+//      font-family: 'Sen', sans-serif;
+//    }
+//  }
+//}
+//
+//
+//.technical{
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  //width: 25% !important;
+//  background: rgb(30, 27, 27);
+//  padding: 10px;
+//  border-radius: 10px;
+//  margin: 20px;
+//  //add box shadow
+//  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+//  svg{
+//    width: 70px;
+//    path{
+//      fill: #ffffff;
+//    }
+//  }
+//  .technicaldesc{
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: center;
+//    align-items: center;
+//    margin-top: 10px;
+//
+//    .main{
+//      font-size: 20px;
+//      color: #d4dcf6;
+//      font-family: 'Sen', sans-serif;
+//      padding-bottom: 5px;
+//
+//    }
+//    .text{
+//      font-size: 15px;
+//      color: #D4DCF6FF;
+//      font-family: 'Sen', sans-serif;
+//    }
+//  }
+//}
+////hover to display skill description
+////  .technical .text {
+////    display: none;
+////  }
+////
+////  .technical:hover .text {
+////    display: block;
+////    transition: ease-in-out 0.5s;
+////  }
+//
+//.springboot{
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  //width: 25% !important;
+//  background: rgb(30, 27, 27);
+//  padding: 10px;
+//  border-radius: 10px;
+//  margin: 20px;
+//  //add box shadow
+//  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+//  svg{
+//    width: 70px;
+//    path{
+//      fill: rgb(68, 171, 13);;
+//    }
+//  }
+//  .springbootdesc{
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: center;
+//    align-items: center;
+//    margin-top: 10px;
+//    .main{
+//      font-size: 20px;
+//      color: #d4dcf6;
+//      padding-bottom: 5px;
+//      font-family: 'Sen', sans-serif;
+//    }
+//    .text{
+//      font-size: 15px;
+//      color: #D4DCF6FF;
+//      font-family: 'Sen', sans-serif;
+//    }
+//  }
+//}
+////hover to display skill description
+////  .springboot .text {
+////    display: none;
+////  }
+////
+////  .springboot:hover .text {
+////    display: block;
+////    transition: ease-in-out 0.5s;
+////  }
+
+
+
 
 
