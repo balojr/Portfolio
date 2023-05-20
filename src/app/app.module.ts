@@ -14,10 +14,17 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonToggleModule} from "@angular/material/button-toggle";
+import { MatCardModule} from "@angular/material/card";
+import {MatButtonModule} from "@angular/material/button";
+import {MatProgressBarModule} from "@angular/material/progress-bar";
+import {MatDividerModule} from "@angular/material/divider";
+import { HttpClientModule} from "@angular/common/http";
 
 const appRoutes: Routes = [
   {path: '', component: LandingpageComponent},
   {path: 'skills', component: SkillsComponent},
+  {path: 'nav', component: NavComponent }
+
 ];
 @NgModule({
   declarations: [
@@ -37,7 +44,12 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes, {enableTracing: true}),
     NgOptimizedImage,
     MatIconModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatCardModule,
+    MatButtonModule,
+    MatProgressBarModule,
+    MatDividerModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
